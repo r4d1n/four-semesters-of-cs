@@ -1,0 +1,26 @@
+{
+  "name": "four-semesters-of-js",
+  "version": "1.0.0",
+  "description": "Notes from Brian Holt's workshop at Forward Summit 2016.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha --",
+    "lint": "node_modules/.bin/eslint ./**/*.js --"
+  },
+  "repository": "flipactual/four-semesters-of-js",
+  "author": "Flip",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "dependencies": {
+    "lodash.clone": "^4.1.0",
+    "lodash.isequal": "^4.0.0",
+    "lodash.noop": "^3.0.1",
+    "log-update": "^1.0.2"
+  }
+}
